@@ -9,14 +9,13 @@
     box-sizing: border-box;
     font-family: "Space Mono";
     font-weight: 400;
-
 }
-
 
 .menu-navbar{
     width: 100vw;
     height: 100px;
 }
+
 .ul-menu{
     width: 100vw;
     display: inline-flex;
@@ -26,30 +25,40 @@
     background-color: #222222;
 }
 
-.li-menu{
+.ul-menu li{
     display: flex;
     justify-content: center;
     height: 40px;
     align-items: center;
     margin: 2px 2px;
     text-decoration: none;
+}
+
+.li-menu{
     background-color: #333333;
     color: #eeeeee;
     border-top: 3px solid #333333;
     flex-grow: 1;
 }
+
 .li-menu-logo{
-    display: flex;
-    justify-content: center;
-    height: 40px;
-    align-items: center;
-    margin: 2px 2px;
-    text-decoration: none;
     background-color: #eeeeee;
     color: #222222;
     border-top: 3px solid #eeeeee;
     flex-grow: 3;
+    font-weight: 600;
 }
+
 .li-menu:active{
     border-top: 3px solid rgb(194, 78, 78);
+}
+
+.header-container{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.div-header{
+flex-grow: 1;
 }
